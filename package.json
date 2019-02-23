@@ -1,0 +1,27 @@
+{
+  "name": "live-crypto-price-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "node ./server/src/DataServer.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koinkid/Live-Crypto-Price.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koinkid/Live-Crypto-Price/issues"
+  },
+  "homepage": "https://github.com/koinkid/Live-Crypto-Price#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "mysql": "^2.16.0"
+  }
+}
