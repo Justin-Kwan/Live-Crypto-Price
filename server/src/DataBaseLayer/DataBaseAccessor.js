@@ -117,5 +117,5 @@ deletePriceRecordSql(callback) {
 
 }
 
-// class is exorted
+// class is exported
 module.exports = DataBaseAccessor;
